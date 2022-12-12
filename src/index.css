@@ -21,11 +21,16 @@ body {
 }
 
 .actions-icons {
-  height: 20px;
+  height: 100%;
   width: 20px;
   margin-right: 10px;
 }
 
 .action-icons:hover {
   cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
 }
